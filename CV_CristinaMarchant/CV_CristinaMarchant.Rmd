@@ -143,7 +143,7 @@ tribble(
 
 ## Software
 
-* **R** para análisis estadístico, procesamiento de bases de datos y visualización de datos: Nivel intermedio
+* **R** para análisis estadístico, procesamiento de bases de datos y visualización de datos: Nivel avanzado
 * **SPSS** para análisis estadístico: Nivel avanzado
 * **Stata** para análisis estadístico: Nivel intermedio
 * **DeDoose** para el análisis cualitativo: Nivel intermedio
