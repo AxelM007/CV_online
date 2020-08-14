@@ -7,8 +7,8 @@
 
 <!-- badges: end -->
 
-El repositorio se creó para tener un curriculum vitae de fácil de
-editar, y con un diseño agradable desde RMarkdown.
+El repositorio se creó para tener un curriculum vitae fácil de editar, y
+con un diseño agradable desde RMarkdown.
 
 Para esto se utilizó el paquete **vitae**, y específicamente el template
 **Awesome-CV format**.
