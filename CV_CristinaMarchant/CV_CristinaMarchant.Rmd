@@ -48,6 +48,8 @@ Coordinación de proyectos, análisis de datos cuantitativos y cualitativos, dis
 ```{r}
 tribble(
   ~Ano, ~Estudio, ~Mandante,
+  2020, "Encuesta de diversidad y discriminación a personas LGBTIQ+", "Subsecretaría de Prevención del Delito",
+  2020, "Diseño muestral proyecto Chile a Escala: Tenemos que hablar de Chile", "CPP UC",
   2020, "Encuesta Nacional de Derechos Humanos 2020", "INDH",
   2019, "Encuesta Formas de violencia y ejercicio de Derechos Humanos en Barrios Priorizados", "INDH",
   2019, "Quinta Encuesta Nacional de Calidad de Vida en el Adulto Mayor de Chile", "CEVE UC",
@@ -70,6 +72,8 @@ tribble(
 
 &nbsp;
 &nbsp;
+
+\newpage
 
 ## Abril - Septiembre 2018
 
@@ -94,7 +98,7 @@ tribble(
 &nbsp;
 &nbsp;
 
-\newpage
+
 ## Marzo 2015 - Marzo 2018
 
 **Analista de datos en Dirección de Estudios Sociales**, del Instituto de Sociología de la Pontificia Universidad Católica de Chile DESUC.
@@ -125,6 +129,8 @@ tribble(
   )
 ```
 
+\newpage
+
 # Experiencia académica
 
 ```{r}
@@ -138,7 +144,8 @@ tribble(
   detailed_entries(Institucion, Ano, Cargo)
 
 ```
-\newpage
+
+
 # Competencias laborales
 
 ## Software
