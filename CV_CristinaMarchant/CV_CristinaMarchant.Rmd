@@ -48,6 +48,8 @@ Coordinación de proyectos, análisis de datos cuantitativos y cualitativos, dis
 ```{r}
 tribble(
   ~Ano, ~Estudio, ~Mandante,
+  2021, "Encuesta Nacional de Televisión 2021", "Consejo Nacional de Televisión",
+  2020, "Estudio Orgullo de Chile, segunda versión", "Fundación Imagen de Chile",
   2020, "Encuesta de diversidad y discriminación a personas LGBTIQ+", "Subsecretaría de Prevención del Delito",
   2020, "Diseño muestral proyecto Chile a Escala: Tenemos que hablar de Chile", "CPP UC",
   2020, "Encuesta Nacional de Derechos Humanos 2020", "INDH",
