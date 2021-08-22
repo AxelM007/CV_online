@@ -48,6 +48,9 @@ Coordinación de proyectos, análisis de datos cuantitativos y cualitativos, dis
 ```{r}
 tribble(
   ~Ano, ~Estudio, ~Mandante,
+  2021, "Encuesta Nacional Bicentenario 2021", "CPP UC",
+  2021, "Térmometro de Calidad de Vida y Salud", "ACHS Chile",
+  2021, "Terreno de Evaluación de Impacto Programa Conecta Mayor", "Fundación Conecta Mayor",
   2021, "Encuesta Nacional de Televisión 2021", "Consejo Nacional de Televisión",
   2020, "Estudio Orgullo de Chile, segunda versión", "Fundación Imagen de Chile",
   2020, "Encuesta de diversidad y discriminación a personas LGBTIQ+", "Subsecretaría de Prevención del Delito",
@@ -138,6 +141,7 @@ tribble(
 ```{r}
 tribble(
   ~ Institucion, ~ Ano, ~ Cargo,
+  "Pontificia Universidad Católica de Chile", "2021", "Docente Diseño y Análisis de Pruebas de campo",
   "Pontificia Universidad Católica de Chile", "2019", "Docente Metodología de la Investigación Social",
   "Magister en Diseño y Análisis de Encuestas Sociales, Pontificia Universidad Católica de Chile", "2019", "Ayudante Muestreo en Encuestas",
   "Pontificia Universidad Católica de Chile", "2016", "Ayudante Alimentación y Sociedad",
