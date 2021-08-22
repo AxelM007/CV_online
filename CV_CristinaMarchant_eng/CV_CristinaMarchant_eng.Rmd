@@ -1,0 +1,167 @@
+---
+name: Cristina
+surname: Marchant
+position: "Sociologist, MA in Design and Analysis of Social Surveys"
+address: "Santiago, Chile"
+email: "cemarcha@uc.cl"
+github: cristinamarchant
+linkedin: cristinamarchant
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Grado, ~ Ano, ~ Institucion, ~ donde,
+  "Sociologist", "2014", "Pontifical Catholic University of Chile", "Santiago, Chile",
+  "Master's Degree in Design and Analysis of Social Surveys", "2018", "Pontifical Catholic University of Chile", "Santiago, Chile") %>% 
+  detailed_entries(Grado, Ano, Institucion, donde)
+```
+
+## Student Exchange
+
+```{r}
+tribble(
+  ~ Grado, ~ Ano, ~ Institucion, ~ donde,
+  "Sociology", "2013-2014", "Università degli Studi di Bologna", "Bologna, Italia") %>% 
+  detailed_entries(Grado, Ano, Institucion, donde)
+```
+
+# Work Experience
+
+&nbsp;
+
+## October 2018 - To date
+
+**Project Manager at the Social Studies Directorate**, Institute of Sociology of  Pontifical Catholic University of Chile (DESUC).
+
+Project coordination, quantitative and qualitative data analysis, sample designs, weights design, quality control and instrument design.
+
+```{r}
+tribble(
+  ~Ano, ~Estudio, ~Mandante,
+  2021, "National Bicentennial Survey 2021", "CPP UC",
+  2021, "Quality of Life and Health Measurement Survey", "ACHS Chile",
+  2021, "Conecta Mayor Program Impact Evaluation Fieldwork", "Conecta Mayor Foundation",
+  2021, "National Television Survey 2021", "National Television Council",
+  2020, "Pride of Chile Study, second version", "Imagen de Chile Foundation",
+  2020, "Diversity and Discrimination Survey of LGBTIQ+ People", "Undersecretariat for Crime Prevention",
+  2020, "Sample design of the Chile a Escala Project: We have to talk about Chile", "CPP UC",
+  2020, "National Human Rights Survey 2020", "INDH",
+  2019, "Survey on Forms of Violence and Exercise of Human Rights in Prioritized Neighborhoods", "INDH",
+  2019, "National Survey on Quality of Life in the Elderly in Chile", "CEVE UC",
+  2019, "National Survey on Access to Justice", "Judicial Power",
+  2019, "Study Characterization of the MR (Metropolitan Region) Urban Park Network Users", "MINVU",
+  2019, "Study of Tobacco Consumption in Chile", "MIDE UC",
+  2019, "MR Business and Human Capital Study", "CPP UC and SENCE",
+  2019, "National Survey of Digital School Development 2019", "MINEDUC",
+  2019, "Vulnerability in the Chilean Elderly:  A Life Course Study of Accumulated Advantages and Disadvantages - Fondecyt", "Ignacio Madero",
+  2018, "V National Survey on Democracy Auditing", "UNDP",
+  2018, "Neighborhood Coexistence and Interculturality Survey", "Undersecretariat for Crime Prevention",
+  2018, "Public Prosecutor's Office Institutional Perception and Positioning Study", "Public Prosecutor's Office",
+) %>% 
+  brief_entries(
+    glue::glue("Coordination: {Estudio}"),
+    Ano, 
+    Mandante
+  )
+```
+
+&nbsp;
+&nbsp;
+
+\newpage
+
+## April - September 2018
+
+**Consultant at Cliodinámica Ltda.**, a consulting firm dedicated to social studies and impact assessments in the public and private sectors.
+
+Participation in projects, quantitative and qualitative data analysis, and participation in instrument design such as:
+
+```{r}
+tribble(
+  ~Ano, ~Estudio, ~Mandante,
+  2018, "National Human Rights Survey 2018", "INDH",
+  2018, "Impact Evaluation of the Renueva tu Micro (Renew your Bus) Program", "Ministry of Transportation and Telecommunications",
+  2018, "Evaluation of the Mejores Ferias para Santiago (Better Market Fairs for Santiago) Program", "FOSIS",
+  2018, "Systematization and Analysis of FOSIS I.D.E.A. Programs", "FOSIS") %>% 
+  brief_entries(
+    glue::glue("Participation: {Estudio}"),
+    Ano, 
+    Mandante
+  )
+```
+
+&nbsp;
+&nbsp;
+
+
+## March 2015 - March 2018
+
+**Data analyst at the Social Studies Directorate**, Institute of Sociology of la Pontifical Catholic University of Chile (DESUC).
+
+Project coordination, quantitative and qualitative data analysis, and participation in instrument design. 
+
+```{r}
+tribble(
+  ~Ano, ~Estudio, ~Mandante,
+  2018, "Public Defender's Office Service Perception Opinion Survey", "Public Defender's Office",
+  2017, "First National Survey on Polyvictimization in Children and Adolescents", "Undersecretariat for Crime Prevention",
+  2017, "Study on Reasons for Use of Presential Procedures", "SegPres",
+  2016, "National Survey on Quality of Life and Health ENCAVI 2016", "Ministry of Health",
+  2016, "National Survey on Environment and Climate Change 2016", "Ministry of the Environment",
+  2016, "National Survey of Citizen Rights 2016", "SegPres",
+  2016, "First National Survey of Scientific Culture: Social Perception of Science and Technology in Chile", "Conicyt",
+  2016, "Study on Educational Quality from the Perception of Key System Stakeholders", "Agency for Quality Education",
+  2016, "Survey on Perception of Security for Lo Barnechea Commune", "Lo Barnechea Security",
+  2016, "Work Climate Measurement for Codelco in its ten divisions and work centers", "Codelco",
+  2016, "First Index Study of Women in Senior Management", "Businesswomen",
+  2015, "Third National Survey on Violence in the School Environment", "Undersecretariat for Crime Prevention",
+  2015, "Stadium Safety Study Baseline", "Undersecretariat for Crime Prevention",
+  2015, "National Survey on the trial phase of the National System of Quality Assurance in Key System Stakeholders", "Education Quality Agency") %>% 
+  brief_entries(
+    glue::glue("Participation: {Estudio}"),
+    Ano, 
+    Mandante
+  )
+```
+
+\newpage
+
+# Academic Experience
+
+```{r}
+tribble(
+  ~ Institucion, ~ Ano, ~ Cargo,
+  "Pontifical Catholic University of Chile", "2021", "Field Test Design and Analysis Professor",
+  "Pontifical Catholic University of Chile", "2019", "Social Research Methodology Professor",
+  "Master in Design and Analysis of Social Surveys, Pontifical Catholic University of Chile", "2019", "Teaching Assistant to Survey Sampling",
+  "Pontifical Catholic University of Chile", "2016", "Teaching Assistant to the course Food and Society",
+  "Pontifical Catholic University of Chile", "2014", "Teaching Assistant to the course Political Sociology",
+  "Pontifical Catholic University of Chile", "2014", "Teaching Assistant to the course of Logic") %>% 
+  detailed_entries(Institucion, Ano, Cargo)
+```
+
+# Work skills
+
+## Software
+
+* **R** for statistical analysis, database processing and data visualization: Advanced Level.
+* **SPSS** for statistical analysis: Advanced level. 
+* **Stata** for statistical analysis: Intermediate level.
+* **DeDoose** for qualitative analysis: Intermediate level.
+* **Microsoft Word, Excel and Power Point**: Advanced level.
+
+## Languages
+
+* Spanish: Native
+* English: Advanced
+* Italian: Advanced
