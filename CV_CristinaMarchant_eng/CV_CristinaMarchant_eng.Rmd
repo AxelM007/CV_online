@@ -43,7 +43,7 @@ tribble(
 
 **Project Manager at the Social Studies Directorate**, Institute of Sociology of  Pontifical Catholic University of Chile (DESUC).
 
-Project coordination, quantitative and qualitative data analysis, sample designs, weights design, quality control and instrument design.
+Project coordination, quantitative and qualitative data analysis, sample designs, weights design, quality control and questionnaire design.
 
 ```{r}
 tribble(
@@ -84,7 +84,7 @@ tribble(
 
 **Consultant at Cliodinámica Ltda.**, a consulting firm dedicated to social studies and impact assessments in the public and private sectors.
 
-Participation in projects, quantitative and qualitative data analysis, and participation in instrument design such as:
+Participation in projects, quantitative and qualitative data analysis, and participation in questionnaire design such as:
 
 ```{r}
 tribble(
@@ -108,7 +108,7 @@ tribble(
 
 **Data analyst at the Social Studies Directorate**, Institute of Sociology of la Pontifical Catholic University of Chile (DESUC).
 
-Project coordination, quantitative and qualitative data analysis, and participation in instrument design. 
+Project coordination, quantitative and qualitative data analysis, and participation in questionnaire design. 
 
 ```{r}
 tribble(
