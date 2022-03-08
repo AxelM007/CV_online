@@ -56,7 +56,8 @@ Coordinación de proyectos, análisis de datos cuantitativos y cualitativos, dis
 ```{r}
 tribble(
   ~Ano, ~Estudio, ~Mandante,
-  2121, "Encuesta Nacional de Salud Sexual y Género", "MINSAL",
+  2022, "Encuesta Nacional de Salud Sexual y Género", "MINSAL",
+  2022, "Análisis Encuesta Educación rural en contexto COVID-19", "Fundación99",
   2021, "Línea Base Social Choshuenco y Paillahuinte", "Corporación Choshuenco",
   2021, "Estudio Orgullo de Chile, tercera versión", "Fundación Imagen de Chile",
   2021, "Encuesta Nacional Bicentenario 2021", "UC",
@@ -66,8 +67,7 @@ tribble(
   2020, "Estudio Orgullo de Chile, segunda versión", "Fundación Imagen de Chile",
   2020, "Encuesta de diversidad y discriminación a personas LGBTIQ+", "Subsecretaría de Prevención del Delito",
   2020, "Diseño muestral proyecto Chile a Escala: Tenemos que hablar de Chile", "CPP UC",
-  2020, "Encuesta Nacional de Derechos Humanos 2020", "INDH",
-  2019, "Encuesta Formas de violencia y ejercicio de Derechos Humanos en Barrios Priorizados", "INDH") %>% 
+  2020, "Encuesta Nacional de Derechos Humanos 2020", "INDH") %>% 
   brief_entries(
     glue::glue("Coordinación de {Estudio}"),
     Ano, 
@@ -78,6 +78,7 @@ tribble(
 ```{r}
 tribble(
   ~Ano, ~Estudio, ~Mandante,
+  2019, "Encuesta Formas de violencia y ejercicio de Derechos Humanos en Barrios Priorizados", "INDH",
   2019, "Quinta Encuesta Nacional de Calidad de Vida en el Adulto Mayor de Chile", "CEVE UC",
   2019, "Encuesta Nacional de Acceso a la Justicia", "Poder Judicial",
   2019, "Estudio Caracterización del usuario de la red de parques urbanos en RM", "MINVU",
