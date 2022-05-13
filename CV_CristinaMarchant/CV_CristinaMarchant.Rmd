@@ -4,6 +4,7 @@ surname: Marchant
 position: "Socióloga"
 address: "Santiago, Chile"
 email: "cemarcha@uc.cl"
+www: cristinamarchant.netlify.app
 github: cristinamarchant
 linkedin: cristinamarchant
 date: "`r format(Sys.time(), '%B %Y')`"
@@ -20,10 +21,10 @@ library(vitae)
 ```{r}
 library(tibble)
 tribble(
-  ~ Grado, ~ Ano, ~ Institucion, ~ donde,
-  "Socióloga", "2014", "Pontificia Universidad Católica de Chile", "Santiago, Chile",
-  "Master en Diseño y Análisis de Encuestas Sociales", "2018", "Pontificia Universidad Católica de Chile", "Santiago, Chile") %>% 
-  detailed_entries(Grado, Ano, Institucion, donde)
+  ~ Institucion, ~ Ano, ~ Grado, ~ donde,
+  "Pontificia Universidad Católica de Chile", "2014", "Socióloga", "Santiago, Chile",
+  "Pontificia Universidad Católica de Chile", "2018", "Master en Diseño y Análisis de Encuestas Sociales", "Santiago, Chile") %>% 
+  detailed_entries(Institucion, Ano, Grado, donde)
 ```
 
 ## Intercambio académico
@@ -43,7 +44,7 @@ tribble(
 
 **Consultor Diseño de cuestionarios**, para el proyecto "Pacific Labor Mobility Omnibus Surveys and Impact Evaluation" del Banco Mundial.
 
-Apoyo y desarrollo de instrumentos para la aplicación de encuestas en el contexto de Evaluación de Impacto de Programas de Migración Laboral en Australia y Nueva Zelanda.
+Apoyo en desarrollo de instrumentos para la aplicación de encuestas en el contexto de Evaluación de Impacto de Programas de Migración Laboral en Australia y Nueva Zelanda.
 
 &nbsp;
 
@@ -51,12 +52,12 @@ Apoyo y desarrollo de instrumentos para la aplicación de encuestas en el contex
 
 **Jefa de Proyectos en Dirección de Estudios Sociales**, del Instituto de Sociología de la Pontificia Universidad Católica de Chile DESUC.
 
-Coordinación de proyectos, análisis de datos cuantitativos y cualitativos, diseños muestrales, construcción de factores de expansión y diseño de instrumentos.
+Coordinación de proyectos, diseño de muestras e instrumentos, seguimiento del levantamiento de datos, diseño y construcción de factores de expansión, y análisis y visualización de datos cuantitativos.
 
 ```{r}
 tribble(
   ~Ano, ~Estudio, ~Mandante,
-  2022, "Encuesta Nacional de Salud Sexual y Género", "MINSAL",
+  2022, "Encuesta Nacional de Salud, Sexualidad y Género", "MINSAL",
   2022, "Análisis Encuesta Educación rural en contexto COVID-19", "Fundación99",
   2021, "Línea Base Social Choshuenco y Paillahuinte", "Corporación Choshuenco",
   2021, "Estudio Orgullo de Chile, tercera versión", "Fundación Imagen de Chile",
@@ -164,12 +165,9 @@ tribble(
 ```{r}
 tribble(
   ~ Institucion, ~ Ano, ~ Cargo,
-  "Pontificia Universidad Católica de Chile", "2021", "Docente Diseño y Análisis de Pruebas de campo",
+  "Pontificia Universidad Católica de Chile", "2021-2022", "Docente Diseño y Análisis de Pruebas de campo",
   "Pontificia Universidad Católica de Chile", "2019", "Docente Metodología de la Investigación Social",
-  "Magister en Diseño y Análisis de Encuestas Sociales, Pontificia Universidad Católica de Chile", "2019", "Ayudante Muestreo en Encuestas",
-  "Pontificia Universidad Católica de Chile", "2016", "Ayudante Alimentación y Sociedad",
-  "Pontificia Universidad Católica de Chile", "2014", "Ayudante Sociología Política",
-  "Pontificia Universidad Católica de Chile", "2014", "Ayudante Lógica") %>% 
+  "Magister en Diseño y Análisis de Encuestas Sociales, Pontificia Universidad Católica de Chile", "2019", "Ayudante Muestreo en Encuestas") %>% 
   detailed_entries(Institucion, Ano, Cargo)
 
 ```
