@@ -57,13 +57,13 @@ Coordinación de proyectos, diseño de muestras e instrumentos, seguimiento del 
 ```{r}
 tribble(
   ~Ano, ~Estudio, ~Mandante,
+  2023, "Encuesta Nacional de Calidad de Vida y Salud", "MINSAL",
+  2022, "Segunda Encuesta Nacional de Polivictimización en NNA", "Subsecretaría de Prevención del Delito",
+  2022, "Encuesta Nacional Bicentenario 2022", "UC",
   2022, "Encuesta Nacional de Salud, Sexualidad y Género", "MINSAL",
-  2022, "Análisis Encuesta Educación rural en contexto COVID-19", "Fundación99",
-  2021, "Línea Base Social Choshuenco y Paillahuinte", "Corporación Choshuenco",
+  2022, "Estudio Orgullo de Chile, cuarta versión", "Fundación Imagen de Chile",
   2021, "Estudio Orgullo de Chile, tercera versión", "Fundación Imagen de Chile",
   2021, "Encuesta Nacional Bicentenario 2021", "UC",
-  2021, "Térmometro de Calidad de Vida y Salud", "ACHS Chile",
-  2021, "Terreno de Evaluación de Impacto Programa Conecta Mayor", "Fundación Conecta Mayor",
   2021, "Encuesta Nacional de Televisión 2021", "Consejo Nacional de Televisión",
   2020, "Estudio Orgullo de Chile, segunda versión", "Fundación Imagen de Chile",
   2020, "Encuesta de diversidad y discriminación a personas LGBTIQ+", "Subsecretaría de Prevención del Delito",
@@ -83,10 +83,7 @@ tribble(
   2019, "Quinta Encuesta Nacional de Calidad de Vida en el Adulto Mayor de Chile", "CEVE UC",
   2019, "Encuesta Nacional de Acceso a la Justicia", "Poder Judicial",
   2019, "Estudio Caracterización del usuario de la red de parques urbanos en RM", "MINVU",
-  2019, "Estudio de Consumo de Tabaco en Chile", "MIDE UC",
-  2019, "Estudio Empresas y Capital Humano RM", "CPP UC y SENCE",
   2019, "Encuesta Nacional de Desarrollo Digital Escolar 2019", "MINEDUC",
-  2019, "Fondecyt Vulnerabilidad en Adultos Mayores en Chile: Un estudio de curso de vida sobre ventajas y desventajas acumuladas", "Ignacio Madero",
   2018, "V Encuesta Nacional de Auditoría a la Democracia", "PNUD",
   2018, "Encuesta de Convivencia Barrial e Interculturalidad ", "Subs. Prevención del Delito",
   2018, "Estudio de Percepción y Posicionamiento Institucional del Ministerio Público", "Ministerio Público",
@@ -123,9 +120,6 @@ tribble(
     Mandante
   )
 ```
-
-&nbsp;
-&nbsp;
 
 
 ## Marzo 2015 - Marzo 2018
@@ -165,7 +159,7 @@ tribble(
 ```{r}
 tribble(
   ~ Institucion, ~ Ano, ~ Cargo,
-  "Pontificia Universidad Católica de Chile", "2021-2022", "Docente Diseño y Análisis de Pruebas de campo",
+  "Pontificia Universidad Católica de Chile", "2021-2023", "Docente Diseño y Análisis de Pruebas de campo",
   "Pontificia Universidad Católica de Chile", "2019", "Docente Metodología de la Investigación Social",
   "Magister en Diseño y Análisis de Encuestas Sociales, Pontificia Universidad Católica de Chile", "2019", "Ayudante Muestreo en Encuestas") %>% 
   detailed_entries(Institucion, Ano, Cargo)
